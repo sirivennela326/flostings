@@ -6,7 +6,10 @@ body{
 * {box-sizing: border-box;}
 
 .mySlides {display: none;}
-img {vertical-align: middle;}
+img {
+  vertical-align: middle;
+  width: 400px;
+}
 
 
 .slideshow-container {
@@ -40,7 +43,7 @@ img {vertical-align: middle;}
 }
 
 #a1{
-    color: #551a8b;
+    color: #9674bb;
 }
 #h{
     font-size: 50px;
@@ -94,10 +97,12 @@ a:active{
   #subtitle{
     font-size: 13px;
   }
-  .slideshow-container {margin-top: 12%; margin-left: 10%; }
+  .slideshow-container
+   {margin-top: 12%;
+     margin-left: 0%; }
   #buttons{margin-top: 22%;}
   .mySlides img{
-    width: 500px;
+    width: 250px;
   }
   .btn {
     font-size: 15px;
