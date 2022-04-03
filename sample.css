@@ -39,28 +39,20 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-
-html{
-    height: 100%;
-}
 #a1{
     color: #9674bb;
 }
 #h{
-    font-size: 5vw;
+    font-size: 50px;
     font-family: 'Cormorant Garamond',sans-serif;
     font-weight: bolder;
 }
 #title{
-    margin: 6vh 0vw 0vh 5vw;
+    margin: 50px 0px 0px 50px;
 }
 #subtitle{
-    font-size: 1.7vw;
-    margin-left: 3.5vw;
+    font-size: 20px;
+    margin-left: 20px;
 }
 #buttons{
     text-align: center;
@@ -69,16 +61,16 @@ html{
 }
 .btn {
     flex: 1 1 auto;
-    font-size: 1.3vw;
-    padding: 1.5vh 1vw;
-    border-radius: 1vw;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 15px;
     color:white;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    box-shadow: 0 0 2vh #eee;
+    box-shadow: 0 0 20px #eee;
     border-color: transparent;
-    margin-right: 4vw;
+    margin-right: 45px;
    } 
 .btn:hover {
     background-position: right center; 
@@ -95,3 +87,21 @@ a{
 a:active{
     color: black;
 }
+@media (max-width: 480px) {
+  #h{
+    font-size: 35px;
+  }
+  #subtitle{
+    font-size: 13px;
+  }
+  .slideshow-container {margin-top: 12%; margin-left: 10%; }
+  #buttons{margin-top: 22%;}
+  .mySlides img{
+    width: 500px;
+  }
+  .btn {
+    font-size: 15px;
+    margin:0px 50px 20px 50px;
+  }
+}
+
