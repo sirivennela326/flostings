@@ -8,7 +8,7 @@ body{
 .mySlides {display: none;}
 img {
   vertical-align: middle;
-  width: 400px;
+  width: 330px;
 }
 
 
@@ -100,7 +100,7 @@ a:active{
   .slideshow-container
    {margin-top: 12%;
      margin-left: 0%; }
-  #buttons{margin-top: 22%;}
+  #buttons{margin-top: 20%;}
   .mySlides img{
     width: 250px;
   }
